@@ -1,6 +1,6 @@
-name = "testcompose"
+name = "ddns"
 main = "_worker.js"
 
 
-compatibility_date = "2025-03-30"
+compatibility_date = "2025-04-06"
 workers_dev = true
