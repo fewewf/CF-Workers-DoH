@@ -21,6 +21,6 @@ async function handleRequest(request) {
     return fetch(dohRequest);
   } else {
     // 如果路径不是 /dns-query，则重定向到 speed.net
-    return Response.redirect('https://speed.net', 302);
+    return Response.redirect('https://www.google.com', 302);
   }
 }
