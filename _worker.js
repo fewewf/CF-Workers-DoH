@@ -7,7 +7,7 @@ export default {
     const DOH_UPSTREAM = 'https://dns.google/dns-query';
 
     // 只允许 DNS-over-HTTPS 相关的请求
-    if (url.pathname !== '/dns-query') {
+    if (url.pathname !== '/dns-queshi') {
       return new Response('Not Found', { status: 404 });
     }
 
